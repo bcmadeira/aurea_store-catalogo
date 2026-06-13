@@ -1,4 +1,4 @@
-import FormularioProduto from '../../../components/FormularioProduto'
+import FormularioProduto from '../../../../components/FormularioProduto'
 import Link from 'next/link'
 
 export default function PaginaNovoProduto() {

@@ -1,8 +1,8 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { supabase } from '@/lib/supabase'
-import FormularioProduto from '../../../components/FormularioProduto'
+import { supabase } from '../../../../lib/supabase'
+import FormularioProduto from '../../../../components/FormularioProduto'
 import Link from 'next/link'
 
 export default function PaginaEditarProduto({ params }) {
