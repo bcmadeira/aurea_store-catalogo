@@ -1,9 +1,9 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { supabase } from '@/lib/supabase'
-import ProdutoCard from '@/components/ProdutoCard'
-import Carrinho from '@/components/Carrinho'
+import { supabase } from '../lib/supabase'
+import ProdutoCard from '../components/ProdutoCard'
+import Carrinho from '../components/Carrinho'
 
 export default function PaginaCatalogo() {
   const [produtos, setProdutos] = useState([])
